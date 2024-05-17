@@ -13,7 +13,7 @@ on:
 jobs:
   build:
     name: 'OCI'
-    uses: curium-rocks/flows/.github/workflows/oci-build-image.yml@main
+    uses: simonhyll/wireguard-flows/.github/workflows/oci-build-image.yml@main
     permissions:
       contents: read
       packages: write
