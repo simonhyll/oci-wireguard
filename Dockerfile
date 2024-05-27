@@ -1,6 +1,6 @@
 FROM alpine:3.18
 
-RUN apk add --no-cache wireguard-tools sudo nano curl
+RUN apk add --no-cache wireguard-tools sudo nano curl tcpdump
 
 RUN addgroup -g 1000 wireguard && \
   adduser -u 1000 -G wireguard -h /home/wireguard -D wireguard && \
